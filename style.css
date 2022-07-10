@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:rgb(195, 198, 28);
+
+font-family: 'Arima', cursive;
+font-family: 'Rubik Moonrocks', cursive;
+font-family: 'The Nautigal', cursive;
+}
+nav ul{
+display: flex;
+justify-content: space-between;
+align-content: space-between;
+align-items: center;
+list-style: none;
+padding: 10px;
+}
+#logo-img img{
+width: 100px;
+height: 100px;
+}
+#bio-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+    margin: 30px;
+}
+nav ul li{
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    color:black;
+}
+article p a:hover{
+color: black;
+}
+#home {
+    background-color:black;
+    color: white;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#bio img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    margin: 100px;
+}
+#nptelimg{
+    height: 25px;
+    width: 25px;
+}
+#gl{
+    height: 25px;
+    width: 25px;
+}
+#skillslash{
+    height: 25px;
+    width: 25px;
+}
+
+header div p{
+    font-size: 2em;
+    font-weight: 100;
+    color: white;
+}
+header div h1{
+    font-size: 2em;
+    font-weight: 100;
+    color:white;
+}
+h2,
+h3{
+    font-size: 40px;
+    font-weight: 700;
+    color:white;
+}
